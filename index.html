@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google font sora -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- tailwind CSS -->
+    <link rel="stylesheet" href="styles/output.css" />
+    <title>Testimonials Page</title>
+  </head>
+  <body>
+    <!-- Testimonial Section -->
+    <section
+      aria-labelledby="testimonials-heading"
+      class="lg:flex lg:h-screen lg:flex-row lg:items-center"
+    >
+      <div
+        class="text-customGray bg-customOffWhite h-[80.375rem] px-[1.875rem] pt-24 lg:mx-auto lg:grid lg:h-auto lg:max-w-screen-xl lg:grid-cols-2 lg:gap-2 lg:px-[4.625rem] lg:pb-[12.125rem] lg:pt-[10.125rem]"
+      >
+        <!-- Testimonials Content -->
+        <article aria-labelledby="reviewers-heading">
+          <div>
+            <div class="bg-customYellow mb-6 w-fit rounded-full p-[6px]">
+              <img
+                src="assets/Star_fill_grad.svg"
+                alt="star-fill"
+                class="h-[24px] w-[24px] rounded-full"
+              />
+            </div>
+            <h3 class="text-customBlack mb-8 text-3xl font-bold">Reviewers</h3>
+            <p class="mb-11 text-xl">
+              Reviewers is where people can access guidelines, checklists, and
+              other tools to assist them in reviewing papers or manuscripts. It
+              provides a structured approach to ensure that the review process
+              is thorough, efficient, and consistent.
+            </p>
+
+            <!-- List of Review Checklists -->
+            <ul class="text-sm">
+              <li class="flex gap-3">
+                <img src="assets/Done_ring_round_fill.svg" alt="done-ring" />
+                <p>Checklist to Review an Academic Paper</p>
+              </li>
+              <li class="flex gap-3">
+                <img src="assets/Done_ring_round_fill.svg" alt="done-ring" />
+                <p>Peer Review Checklist</p>
+              </li>
+              <li class="flex gap-3">
+                <img src="assets/Done_ring_round_fill.svg" alt="done-ring" />
+                <p>
+                  Checklist for Editors, Reviewers, and Authors of SPIE Journals
+                </p>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Testimonial Cards -->
+        <aside class="mt-24 flex flex-col gap-8 text-sm lg:mt-0">
+          <!-- Testimonial Card -->
+          <div
+            class="max-w-[20rem] self-end rounded-lg bg-white px-10 pb-7 pt-6 shadow-sm"
+          >
+            <div class="flex gap-5">
+              <img
+                src="assets/google-testimonial.png"
+                alt="google-testimonial"
+                class="max-h-7"
+              />
+              <div class="flex">
+                <img src="assets/Star_fill.svg" alt="star-fill" />
+                <img src="assets/Star_fill.svg" alt="star-fill" />
+                <img src="assets/Star_fill.svg" alt="star-fill" />
+                <img src="assets/Star_fill.svg" alt="star-fill" />
+                <img src="assets/Star_fill_gray.svg" alt="star-gray" />
+              </div>
+            </div>
+            <div>
+              <p class="py-3 font-bold">Samantha Lee</p>
+              <p class="leading-7">
+                The checklist ensures that the review process is thorough
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="max-w-[20rem] rounded-lg bg-white px-10 pb-7 pt-6 shadow-sm"
+          >
+            <div class="flex gap-5">
+              <img
+                src="assets/meta-testimonial.png"
+                alt="meta-testimonial"
+                class="max-h-7"
+              />
+              <div class="flex">
+                <img src="assets/Star_fill.svg" alt="star-fill" />
+                <img src="assets/Star_fill.svg" alt="star-fill" />
+                <img src="assets/Star_fill.svg" alt="star-fill" />
+                <img src="assets/Star_fill.svg" alt="star-fill" />
+                <img src="assets/Star_fill.svg" alt="star-fill" />
+              </div>
+            </div>
+            <div>
+              <p class="py-3 font-bold">Rachel Patel</p>
+              <p class="leading-6">
+                I highly recommend the Writecream Business Description
+              </p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </body>
+</html>
+
+<!-- https://coolors.co/fefefe-fafafb-f5c651-28292c-f5f5f4-ffffff -->
